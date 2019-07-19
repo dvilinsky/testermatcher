@@ -1,7 +1,7 @@
 # Running the code
 1. Clone the repository 
-2. Navigate to the directory into which you cloned the repository
-3. Run `javac src/*.java`
+2. Navigate to the directory into which you cloned the repository, then the `/src` folder
+3. Run `javac *.java`
 4. Run `java TesterMatcherMain`. It expects four command line arguments:
 
     1. -b: Bug csv file
