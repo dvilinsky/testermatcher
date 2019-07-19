@@ -82,4 +82,5 @@ expose additional endpoints for these cases. There would also need to be additio
 only gets worse as we continue to allow for new search criteria. 
 
 Outside of this, the code could stand to do more input validation, especially around the command line 
-arguments
+arguments. I would also consider abstracting the input file processing that `TesterRepository` does into a separate class,
+especially as the number of search dimensions grows. 
